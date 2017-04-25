@@ -1,6 +1,6 @@
 # npmtest-slack-notify
 
-#### test coverage for  [slack-notify (v0.1.6)](https://github.com/andrewchilds/slack-notify)  [![npm package](https://img.shields.io/npm/v/npmtest-slack-notify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-slack-notify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-slack-notify.svg)](https://travis-ci.org/npmtest/node-npmtest-slack-notify)
+#### basic test coverage for  [slack-notify (v0.1.6)](https://github.com/andrewchilds/slack-notify)  [![npm package](https://img.shields.io/npm/v/npmtest-slack-notify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-slack-notify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-slack-notify.svg)](https://travis-ci.org/npmtest/node-npmtest-slack-notify)
 
 #### A simple Node.js wrapper around the Slack webhook API.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-slack-notify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-slack-notify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-slack-notify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-slack-notify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-slack-notify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-slack-notify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-slack-notify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-slack-notify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-slack-notify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-slack-notify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-slack-notify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-slack-notify/build/coverage.html/index.html)
 
@@ -80,7 +80,8 @@
     "scripts": {
         "test": "./node_modules/jasmine-node/bin/jasmine-node --coffee --color --verbose ./test"
     },
-    "version": "0.1.6"
+    "version": "0.1.6",
+    "bin": {}
 }
 ```
 
